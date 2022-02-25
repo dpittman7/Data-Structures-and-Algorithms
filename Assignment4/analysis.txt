@@ -1,0 +1,2 @@
+The makeEmpty function must transverse through all the nodes, assuming a balanced binary tree, 
+the deletion time will be big-O = O(n) as each node is accessed then deleted.

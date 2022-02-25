@@ -1,0 +1,11 @@
+The major impact of the function that influences the time complexity is the size of the List.
+The for loop iterates for half of the size of the value. 
+A function that expresses the runtime is f(n) = (10n)/2, whereas n is the size of the linked list.
+With polynomial expressions, the highest power term dictates the function that is Big O to it. 
+Therefore, the reverse function is O(n). The expression is Big O to linear time.
+
+The remove_if function is Big-O to O(n). The function initially transverse the list giving it
+n time to run. The comparison to test if the predicate is Big(O) to O(C), as there is no
+list transversal or looping with the elements. The runtime of the test will be the same.
+Therefore, the whole function remove_if then is O(n).
+

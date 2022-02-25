@@ -1,0 +1,22 @@
+
+
+Analysis of the code.
+
+Reading the input set:
+
+Reading the input is O(n), whereas n is the size of the datastream. 
+Iterators through the string moves forward at all times. So the most iterations will be the # of characters that is inputted.
+
+Storing the data:
+
+The data is stored in the MAP container which is determined to be inplemented by the STL library by a binary search tree.
+The insert function of the binary search tree has a time complexity of O(n). However, the average case is theta(logn)
+String ops have neglectable effect on overall time complexity with respect to input size. O(1)
+
+Looking up the final tracking info
+Insert function that checks for presence returns a pointer to the object that needs servicing so updating values is O(1).
+The STL max element algorithm touches every element in the MAP, therefore getting the max element is O(n).
+We repeat the max_element algorithm 10 times to retreive the max_element. 10O(n)*3
+No need to spend time sorting as in case of tie, first in will be identified as max.
+
+
